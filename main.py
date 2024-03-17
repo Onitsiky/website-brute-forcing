@@ -126,17 +126,13 @@ if __name__ == '__main__':
     """
     Main function of the program
     """
-
+    website = input("Enter the target website: ")
+    file_path = input("Enter the path to the file containing the word list: ")
     use_mono_thread = input("Run the program in a mono thread? (y/n): ")
-
     if use_mono_thread == "n":
-        file_path = input("Enter the path to the file containing the word list: ")
-        website = input("Enter the target website: ")
         max_word_number_per_thread = input("Enter the maximum number of words per thread: ")
         process_in_mutli_threads(file_path, website, max_word_number_per_thread)
     elif use_mono_thread == "y":
-        file_path = input("Enter the path to the file containing the word list: ")
-        website = input("Enter the target website: ")
         process_in_single_thread(file_path, website)
     else:
         print("Invalid input.")

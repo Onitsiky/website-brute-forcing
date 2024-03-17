@@ -60,11 +60,13 @@ And few questions will be asked to you.
 
 ### 4 - Output :sparkles:
 Once the program finishes to run, a list of available path will be displayed with the received status_code,
-and also the execution time
-![img.png](output.png)
+and also the execution time.
+
+
+![img.png](images/output.png)
 
 ## Author :boy:
-This project was done by: __RANAIVOSON Onitsiky__, __STD21028__
+This project was done by: __RANAIVOSON Onitsiky__, __STD21018__
 
 Email: __hei.onitsiky@gmail.com__
 
